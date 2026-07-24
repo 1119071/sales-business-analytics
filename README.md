@@ -174,14 +174,6 @@ Open `Power_BI_Analysis.pbix` in Power BI Desktop. If prompted, reconnect the da
 
 ---
 
-## Screenshots
-
-> Add screenshots to a `/screenshots` folder and reference them here, for example:
->
-> ```markdown
-> ![Dashboard Overview](screenshots/dashboard_overview.png)
-> ```
-
 Good things to capture for this project:
 
 - **Power BI dashboard** — one screenshot per report page/tab (overview, revenue over time, top products/sellers, revenue by state, payments, reviews)
