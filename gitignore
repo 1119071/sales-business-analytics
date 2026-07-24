@@ -1,0 +1,14 @@
+# Data files (too large / not part of the codebase)
+Data/Raw/*.csv
+Data/Cleaned/*.csv
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
