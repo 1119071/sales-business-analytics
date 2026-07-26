@@ -4,6 +4,8 @@ A data analytics project that takes the Olist Brazilian E-commerce dataset from 
 
 Built by **Level Up Systems**.
 
+Python | Pandas | MySQL | SQL | Power BI | Data Analytics
+
 ---
 
 ## Overview
