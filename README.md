@@ -42,7 +42,7 @@ Sales-Business-Analytics/
 ├── cleaning.py                                 # Cleans raw CSVs and exports cleaned versions
 ├── data_information.py                         # Inspects raw data (shape, dtypes, nulls)
 ├── analytics.py                                # Pandas analysis + matplotlib charts
-├── import_mysql (GitHub Copilot).py            # Loads cleaned CSVs into MySQL
+├── import_mysql.py            # Loads cleaned CSVs into MySQL
 ├── create-database.sql                         # Creates the sales_analytics database
 ├── create-tables.sql                           # Creates all tables and relationships
 ├── analytics-sql.sql                            # SQL queries used for analysis
@@ -57,7 +57,7 @@ Sales-Business-Analytics/
 |---|---|
 | `cleaning.py` | Reads the raw CSVs, drops duplicates, standardizes text fields, parses dates, fills missing categories/comments, and exports cleaned CSVs |
 | `data_information.py` | Inspects the raw datasets — shape, columns, dtypes, and null counts per table |
-| `import_mysql (GitHub Copilot).py` | Connects to MySQL and loads the cleaned CSVs into the `sales_analytics` database, with batched inserts and error handling |
+| `import_mysql.py` | Connects to MySQL and loads the cleaned CSVs into the `sales_analytics` database, with batched inserts and error handling |
 | `analytics.py` | Loads the cleaned CSVs with pandas, computes key metrics (top products/sellers, revenue by state, monthly revenue, delivery times, etc.) and generates matplotlib charts |
 
 ### SQL
