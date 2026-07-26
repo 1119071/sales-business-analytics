@@ -187,7 +187,7 @@ Dataset: [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/data
 
 This project was built and coded by me. In some parts, AI was used to help clarify and refine the code without drastically changing the logic or approach.
 
-The MySQL import script (`import_mysql (GitHub Copilot).py`) was written with AI assistance specifically, since MySQL Workbench's built-in Import Wizard failed on this dataset (authentication issues, dropped connections on large inserts, duplicate key conflicts, and character encoding errors with emoji/4-byte UTF-8 characters in review text). The AI-assisted script resolves these issues directly with batched inserts, `ON DUPLICATE KEY UPDATE` handling, and a fallback that sanitizes unsupported characters.
+The MySQL import script (`import_mysql.py`) was written with AI assistance specifically, since MySQL Workbench's built-in Import Wizard failed on this dataset (authentication issues, dropped connections on large inserts, duplicate key conflicts, and character encoding errors with emoji/4-byte UTF-8 characters in review text). The AI-assisted script resolves these issues directly with batched inserts, `ON DUPLICATE KEY UPDATE` handling, and a fallback that sanitizes unsupported characters.
 
 ---
 
